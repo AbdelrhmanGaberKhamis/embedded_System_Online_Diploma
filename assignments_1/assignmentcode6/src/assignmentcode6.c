@@ -20,8 +20,8 @@ int main(void) {
 	fflush(stdin); fflush(stdout);
 	scanf("%f",&b);
 c=a;
-b=c;
 a=b;
+b=c;
 	printf("After swapping,value of a = %f\r\n",a);
 	printf("After swapping,value of b = %f",b);
 }
